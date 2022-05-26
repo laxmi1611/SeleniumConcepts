@@ -30,6 +30,7 @@ public class CreateAccountTest {
        selectDay.deselectByVisibleText("15");
        
        driver.findElement(By.xpath("//input[@value='-1']")).click();
+       
        driver.findElement(By.name("websubmit")).click();
 
 	}
